@@ -12,7 +12,6 @@ const DisplaySalaryData = () => {
   const [salaryData, setSalaryData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [filterValue, setFilterValue] = useState('');
-  const [selectedEmployee, setSelectedEmployee] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -52,8 +51,7 @@ const DisplaySalaryData = () => {
       width: 40, // Set the width of the image in the PDF
       height: 23, // Set the height of the image in the PDF
     };
-    const startYPos = 50; // Initial Y position for tables
-    let currentYPos = startYPos;
+    // const startYPos = 50; // Initial Y position for tables
     const imageX = 5; // X position of the image
     const imageY = 5; // Y position of the image
     doc.addImage(logoUrl, 'JPEG', imageX, imageY, addImageOptions.width, addImageOptions.height);
@@ -154,7 +152,6 @@ const DisplaySalaryData = () => {
           fontStyle: 'bold', // Optionally, set the font style to bold for the header
         },
       });
-      currentYPos = doc.autoTable.previous.finalY + 10;
     };
     
     const displayMonthYear = (month, year) => {
@@ -209,7 +206,6 @@ const DisplaySalaryData = () => {
     const currentDate = new Date();
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const currentMonth = monthNames[currentDate.getMonth()];
-    const fileName = `${currentMonth}_${employeeData.employeeId}.pdf`;
     doc.save(`Payslip_${currentMonth}_${employeeData.employeeId}.pdf`);
   };
   return (

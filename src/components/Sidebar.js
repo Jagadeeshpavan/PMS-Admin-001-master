@@ -1,15 +1,12 @@
-import React, { useState,useEffect } from "react";
-import styled from "styled-components";
-import { useNavigate } from 'react-router-dom';
-import { Link } from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
+import React, { useEffect, useState } from "react";
 import * as AiIcons from "react-icons/ai";
+import * as FaIcons from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+import { Link, useNavigate } from 'react-router-dom';
+import styled from "styled-components";
+import "./Sidebar.css";
 import { SidebarData } from "./SidebarData";
 import Submen1 from "./Submenu";
-import { IconContext } from "react-icons/lib";
-import { FaSun, FaMoon, FaUser } from "react-icons/fa";
-import "./Sidebar.css";
-
 
 
 const Nav = styled.div`
