@@ -1,0 +1,142 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 7px;
+  overflow-x: auto;
+}
+.bg {
+  background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+  /* height: 100vh; */
+  width: fit-content;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+/* Apply styles to table header cells */
+th {
+  /* background-color: #f2f2f2; */
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  color: #f9f9f9;
+  background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+  width: fit-content;
+}
+/* Apply styles to table data cells */
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  color:#dddddd;
+  /* color: #f9f9f9; */
+}
+
+/* Apply alternate background color to table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.salary {
+  color: black;
+}
+/* DisplaySalaryData.css */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.pdf {
+  position: relative;
+  font-size: .8em;
+  padding: 0.7em 1.4em;
+  background-color: #BF0426;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.9em;
+  color: #DEDEDE;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+.pdf::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 1) 50%, rgba(150, 4, 31, 1) 50%, rgba(191, 4, 38, 1) 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.pdf:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+button:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+    border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.input::placeholder {
+  color: transparent;
+  /* Initially hiding the placeholder text */
+}
+/* Styling for placeholder on input focus */
+.input:focus::placeholder {
+  color: rgb(131, 128, 128);
+}
+/* Styling when input is focused or not empty */
+.input:focus,
+.input:not(:placeholder-shown) {
+  background-color: #fff;
+  border: 1px solid rgb(91, 107, 255);
+  width: 290px;
+  cursor: none;
+  padding: 18px 16px 18px 45px;
+  /* Adjusted padding for icon */
+  position: relative;
+  left: 2rem;
+}
+.icon {
+  /* Styles for the icon */
+  position: absolute;
+  left: 0px;
+  height: 45px;
+  /* width: 45px; */
+  background-color: #fff;
+  border-radius: 99px;
+  z-index: 5;
+  fill: rgb(24, 111, 226);
+  /* fill:red; */
+  border: 1px solid rgb(91, 107, 255);
+  width: fit-content;
+}
+/* Adjusting icon display on input focus or when not empty */
+.input:focus+.icon,
+.input:not(:placeholder-shown)+.icon {
+  z-index: 0;
+  background-color: transparent;
+  border: none;
+}

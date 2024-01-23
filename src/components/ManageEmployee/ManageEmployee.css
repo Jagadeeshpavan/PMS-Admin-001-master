@@ -1,0 +1,712 @@
+.outsideborder{
+  
+  height:220px;
+  /* border: 5px solid whitesmoke; */
+  border-radius: 2px;
+  position: relative;
+  margin-left:35% ;
+  padding: 3px;
+  width: 40rem;
+  margin-top: 10%;
+  box-shadow: 0 0 10px black;
+  /* margin-top: 50px; */
+}
+
+.attendance {
+  font-size: medium;
+  color: rgb(239, 239, 244);
+  margin-left:40px;
+}
+
+.manage-employee{
+  font-size: x-large;
+  color: white;
+  /* justify-content: center; */
+  margin-left: 35%;
+}
+
+.line1 {
+  border: 1px solid rgb(234, 234, 239);
+  border-radius: 2px;
+  width: 550px;
+  margin-left: 45px;
+}
+
+.outsideborderr {
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(138, 138, 245); */
+
+}
+
+p{
+    color: #0a0a0a;
+
+}
+
+.manage-button2p{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 7rem;
+  margin-top: 10px;
+  margin-left: 9%;
+}
+.manage-button2p:hover{
+    background-color: rgb(0,7,61);
+    color: white;
+}
+/* Employee Table Container */
+.employee-table-container {
+ width: 85%;
+  margin-top: 7%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+/* Employee Heading */
+.employee-heading {
+  font-size: 24px;
+  margin: 0px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  
+}
+
+/* Add Button */
+.add-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: green;
+}
+.search1{
+  border-radius: 3px;
+  padding: 7px;
+  width: 25%;
+  border: none;
+}
+.search-button1{
+  border-radius: 5px;
+  background-color: #020d45;
+  cursor: pointer;
+  padding: 7px;
+  color: white;
+  margin-left: 1%;
+  border-radius: 3px;
+  width: 65px;
+  border: 1px solid white;
+}
+/* Employee Table */
+.employee-table {
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: white;
+  
+}
+.toprange436{
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+ width: 100%;
+ height: 100%;
+}
+ .employee-table td {
+  border: 1px solid #ddd;
+ padding: 6px;
+  text-align: center;
+ font-size: small;
+}
+.employee-table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.overchange34{
+overflow: auto;
+height: 410px;
+}
+.overchange34::-webkit-scrollbar{
+  width: 0px;
+}
+.flowchain56{
+  overflow: auto;
+}
+
+.employee-table th {
+  border: solid 1px white;
+  background: rgb(0, 7, 61);
+  color: white;
+  
+}
+.clickable {
+  color: white;
+ font-size: 20px;
+ font-weight: 500px;
+}
+/* CSS for the hover effect on every cell with class 'clickable' */
+/* CSS for the hover effect on every cell with class 'clickable' */
+.clickable {
+  position: relative;
+  overflow: hidden;
+}
+
+.clickable::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    transparent 20%,
+    rgb(222, 233, 220) 100%
+  );
+  transition: left 0.8s ease;
+}
+
+.clickable:hover::before {
+  left: 0;
+}
+
+.clickable:hover {
+  background-color: rgb(16, 143, 35);
+  color: black;
+  transition: background-color 0.9s ease;
+  cursor: pointer;
+}
+
+
+/* Edit and Delete Buttons */
+.edit-button, .delete-button {
+  background-color: blue;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    width: 56px;
+    margin: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.delete-button {
+  background-color: #f44336 !important;
+}
+
+/* Popup */
+.popup-content {
+  padding: 20px;
+}
+
+/* Form Inputs */
+.employee-form-container input, .employee-form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Form Buttons */
+.employee-form-container button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.employee-form-container button:hover {
+  background-color: #007A9B;
+}
+
+.Home{
+    background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+    background-size: cover;
+    height: 100vh;
+    
+}
+.manage-button1p{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 7rem;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+.manage-button1p:hover{
+  background-color: rgb(0, 7, 61);
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup Content */
+.popup-content1 {
+ 
+  overflow: auto;
+  background: white;
+  padding: 10px !important;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+  width: 40%;
+  height: 560px;
+}
+tr:nth-child(even) {
+  background-color: transparent !important;
+}
+/* Popup Form */
+.popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Popup Input Fields */
+.popup-input {
+  margin-bottom: 15px;
+}
+
+.popup-input label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.popup-input input,
+.popup-input select,
+.popup-input textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Popup Buttons */
+.popup-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popup-button:hover {
+  background-color: #0056b3;
+}
+
+
+.M1{
+  display: flex;
+  justify-content: center;
+  }
+.centerchange12{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 426px) {
+  .employee-table-container {
+    width: 94%;
+    margin-top: 16%;
+    height: 420px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.edit-button, .delete-button {
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  width: 45px;
+  margin: 0px;
+  font-size: x-small;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.overchange34 {
+  overflow: auto;
+  height: 370px;
+}
+.employee-heading {
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 9px;
+  color: white;
+  text-align: center;
+}
+.employee-table {
+  width: 100%;
+  height: 340px;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: white;
+}
+.search1 {
+  border-radius: 3px;
+    padding: 5px;
+    width: 55%;
+    font-size: small;
+    border: none;
+}
+.search-button1 {
+  border-radius: 5px;
+  background-color: #020d45;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  margin-left: 1%;
+  border-radius: 3px;
+  width: 60px;
+  border: 1px solid white;
+}
+.employee-table th {
+  border: solid 1px white;
+  background: rgb(0, 7, 61);
+  color: white;
+  font-size: small;
+  font-weight: normal;
+}
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+
+  .employee-table-container {
+    width: 94%;
+    margin-top: 8%;
+    height: 420px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.edit-button, .delete-button {
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  width: 45px;
+  margin: 0px;
+  font-size: x-small;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.overchange34 {
+  overflow: auto;
+  height: 345px;
+}
+.employee-heading {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 9px;
+  color: white;
+  text-align: center;
+}
+.employee-table {
+  width: 100%;
+  height: 335px;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: white;
+}
+.search1 {
+  border-radius: 3px;
+    padding: 7px;
+    width: 25%;
+    font-size: small;
+    border: none;
+}
+.search-button1 {
+  border-radius: 5px;
+  background-color: #020d45;
+  cursor: pointer;
+  padding: 7px;
+  color: white;
+  margin-left: 1%;
+  border-radius: 3px;
+  width: 60px;
+  border: 1px solid white;
+}
+.employee-table th {
+  border: solid 1px white;
+  background: rgb(0, 7, 61);
+  color: white;
+  font-size: small;
+  font-weight: normal;
+}
+.centerchange12 {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}   
+    
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px){
+  .employee-table-container {
+    width: 94%;
+    margin-top: 6%;
+    height: 415px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.overchange34 {
+  overflow: auto;
+  height: 340px;
+}
+.edit-button, .delete-button {
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  width: 45px;
+  margin: 0px;
+  font-size: x-small;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.employee-heading {
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom: 9px;
+  color: white;
+  text-align: center;
+}
+.centerchange12 {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+.employee-table {
+  width: 100%;
+  height: 310px;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: white;
+}
+.search1 {
+  border-radius: 3px;
+    padding: 7px;
+    width: 20%;
+    font-size: small;
+    border: none;
+}
+.search-button1 {
+  border-radius: 5px;
+  background-color: #020d45;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  margin-left: 1%;
+  border-radius: 3px;
+  width: 60px;
+  border: 1px solid white;
+}
+.employee-table th {
+  border: solid 1px white;
+  background: rgb(0, 7, 61);
+  color: white;
+  font-size: small;
+  font-weight: normal;
+}
+  
+}
+/* Add this CSS to your ManageEmployee.css or in a separate CSS file */
+
+/* Styles for the popup container */
+.popup-content {
+  padding: 20px;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Styles for the heading */
+.popup-content h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* CSS for the Employee Details Modal */
+.pms-emp-pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  /* max-width: 400px; */
+  width: 96%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height: 550px;
+    overflow: auto;
+}
+
+.pms-emp-pop1{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+  font-weight: bold;
+  background-color: rgb(7, 7, 86);  
+  width: 100%;
+  height: 66px;
+  text-align: center;
+  margin-bottom: -10px;
+  border-radius: 5px;
+}
+
+.pms-emp-pop-content {
+  text-align: left;
+  height: 550px;
+  width: auto;
+}
+
+.pms-emp-pop-content h2 {
+  margin-bottom: 10px;
+  margin-top: -18px;
+  color: white;
+}
+
+.pms-emp-pop-content p {
+  margin: 5px 0;
+  color: #0a0a0a;
+}
+
+.pms-emp-pop-content button {
+  background-color: rgb(63, 60, 60);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 110px;
+}
+
+.pms-emp-pop-content button:hover {
+  background-color: grey;
+}
+.basicdetails {
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+.basicedit-main{
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 430px;
+  padding-left: 13px;
+  padding-top: 15px;
+}
+.basicedit {
+font-size: 100%;
+}
+.bankdetails{
+  position: relative;
+  bottom: 937px;
+  left: 44%;
+}
+.bankdetails-main {
+ position: relative;
+ bottom: 925px;
+ left: 41%;
+ border-radius: 25px;
+ border: 2px solid black;
+ width: 660px;
+ padding-left: 10px;
+}
+.identityclass {
+  position: relative;
+  bottom: 559px;
+  left: 43.7%;
+}
+.emp-header{
+
+}
+.identityedit-main{
+  position: relative;
+  bottom: 544px;
+  left: 41%;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 320px;
+  padding-left: 10px;
+}
+.documentation{
+  position: relative;
+  bottom: 908px;
+  left: 73%;
+}
+.documentedit-main {
+  position: relative;
+  bottom: 893px;
+  left: 71.5%;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 300px;
+  padding-left: 10px;
+}
+.extradetails {
+  position: relative;
+  bottom: 180px;
+  left: 41%;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 320px;
+  padding-left: 10px;
+}
+.closebutton {
+position: absolute;
+top: 680px;
+right: 80px;
+}
+.matrical-logo {
+  position: relative;
+  margin-top: -194px;
+  margin-left: 200px;
+  height: 160px;
+  width: 180px;
+}
+.employeeimage {
+  margin-left: 20px;
+}

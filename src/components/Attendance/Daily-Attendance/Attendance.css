@@ -1,0 +1,246 @@
+/* .home3s{
+ 
+}
+.mastercontainer324{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outsideborder3s{
+  width: 60%;
+  border: 1px solid white;
+  height: auto;
+  
+  box-shadow: 0px 0px 10px black;
+  border-radius: 3px;
+  
+  padding: 10px;
+    margin-top: 7%;
+  }
+  .outsideborder23s{
+    width: 60%;
+    border: 1px solid white;
+    padding: 7px;
+    height: auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 2%;
+    }
+.outsideborderr3s {
+display: flex;
+justify-content: center;
+
+}
+.header3s {
+  display: flex;
+ justify-content: space-around;
+ margin-top: 2%;
+ align-items: end;
+}
+.selectbox3s {
+  width: 270px;
+  padding: 7px;
+  border-radius: 2%;
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 3px;
+}
+.button3s {
+  padding: 10px; 
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 0%;
+  cursor: pointer;
+}
+.fields3s{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   width:50%; 
+}
+.employee3s {
+  font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 3%;
+}
+.attendace-date3s{
+  border: none;
+   padding: 8px;
+   width: 175px;
+   border-radius: 3px;
+   background-color: hsl(0, 0%, 90%);
+ }
+.attendance3s {
+  color: white;
+  margin: 0px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+  @media only screen and (max-width: 426px) {
+    .mastercontainer324{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .outsideborder3s{
+      width: 90%;
+      border: 1px solid white;
+      height: auto;
+      box-shadow: 0px 0px 10px black;
+      border-radius: 3px;
+      padding: 10px;
+      margin-top: 18%;
+      }
+      .outsideborder23s{
+        width: 90%;
+        border: 1px solid white;
+        padding: 7px;
+        height: auto;
+        box-shadow: 0px 0px 10px black;
+        border-radius: 3px;
+        padding: 10px;
+        margin-top: 2%;
+        }
+    .outsideborderr3s {
+    display: flex;
+    justify-content: center;
+    
+    }
+    .header3s {
+      display: flex;
+     flex-direction: column;
+     margin-top: 2%;
+     align-items: start;
+    }
+    .selectbox3s {
+      width: 235px;
+      padding: 6px;
+      border-radius: 2%;
+      background-color: hsl(0, 0%, 90%);
+      border-radius: 3px;
+    }
+    .button3s {
+      padding: 7px; 
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-left: 0%;
+      cursor: pointer;
+    }
+    .fields3s{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width:50%; 
+    }
+    .employee3s {
+      font-size: small !important;
+      
+        font-weight: normal;
+        color: white;
+        margin: 0px;
+
+        margin-top: 3%;
+    }
+    .attendace-date3s{
+      border: none;
+       padding: 6px;
+       width: 150px;
+       border-radius: 3px;
+       background-color: hsl(0, 0%, 90%);
+     }
+    .attendance3s {
+      color: white;
+      margin: 0px;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 427px) and (max-width: 769px){
+    .mastercontainer324{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .outsideborder3s{
+      width: 80%;
+      border: 1px solid white;
+      height: auto;
+      box-shadow: 0px 0px 10px black;
+      border-radius: 3px;
+      padding: 10px;
+      margin-top: 8%;
+      }
+      .outsideborder23s{
+        width: 80%;
+        border: 1px solid white;
+        padding: 7px;
+        height: auto;
+        box-shadow: 0px 0px 10px black;
+        border-radius: 3px;
+        padding: 10px;
+        margin-top: 2%;
+        }
+    .outsideborderr3s {
+    display: flex;
+    justify-content: center;
+    
+    }
+    .header3s {
+      display: flex;
+     justify-content: space-around;
+     margin-top: 2%;
+     align-items: end;
+    }
+    .selectbox3s {
+      width: 220px;
+      padding: 6px;
+      border-radius: 2%;
+      background-color: hsl(0, 0%, 90%);
+      border-radius: 3px;
+    }
+    .button3s {
+      padding: 7px;
+      font-size: small;
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-left: 0%;
+      cursor: pointer;
+    }
+    .fields3s{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width:50%; 
+    }
+    .employee3s {
+      font-size: small;
+        font-weight: 600;
+        color: white;
+        margin-top: 3%;
+    }
+    .attendace-date3s{
+      border: none;
+      padding: 7px;
+      padding: 7px;
+      width: 135px;
+      border-radius: 3px;
+      background-color: hsl(0, 0%, 90%);
+     }
+    .attendance3s {
+      color: white;
+      margin: 0px;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    } */
